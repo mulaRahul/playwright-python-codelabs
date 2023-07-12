@@ -1,3 +1,2 @@
 terminals: [ 'python3 -m pip install -U pip && python3 -m pip install playwright && python3 -m playwright install firefox --with-deps' ]
 tabs: ["app.py"]
-run-button: python3 $TEST_FILE_NAME
