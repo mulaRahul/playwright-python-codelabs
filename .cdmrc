@@ -1,2 +1,2 @@
-terminals: [ 'python3 -m pip install -U pip && python3 -m pip install playwright && python3 -m playwright install firefox --with-deps' ]
+terminals: [ 'python3 -m pip install -U pip && python3 -m pip install playwright --user && python3 -m playwright install chromium' ]
 tabs: ["app.py"]
