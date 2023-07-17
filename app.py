@@ -2,8 +2,11 @@ from playwright.sync_api import Page
 
 
 def solution(page: Page) -> Page:
-    # write your solutions here 👇
-    # ...
+    # visit test site
+    page.goto("https://bootswatch.com/default/")
+    
+    # store your locator 👇
+    locator = ...
 
-    # return page for evaluation
-    return page
+    # return locator for evaluation
+    return locator
